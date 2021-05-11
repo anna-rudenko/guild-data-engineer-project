@@ -5,7 +5,7 @@ services:
     container_name: movies-db
     hostname: movies-db
     volumes:
-      - ./movies/sql/:/docker-entrypoint-initdb.d
+      - ./sql/:/docker-entrypoint-initdb.d
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
