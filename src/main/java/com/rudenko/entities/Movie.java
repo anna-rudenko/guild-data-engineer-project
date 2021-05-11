@@ -59,7 +59,7 @@ public class Movie {
     return productionCompanies;
   }
 
-  /* equals() and hashCode() used to make sure movies with the same ID in Set are considered unique. */
+  /* equals() and hashCode() used to make sure movies with the same ID in Set are considered equal. */
   @Override
   public boolean equals(Object o) {
     if (this == o) {

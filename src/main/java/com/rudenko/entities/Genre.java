@@ -20,7 +20,7 @@ public class Genre {
     return genreName;
   }
 
-  /* equals() and hashCode() used to make sure genes with the same ID in Set are considered unique. */
+  /* equals() and hashCode() used to make sure genres with the same ID in Set are considered equal. */
   @Override
   public boolean equals(Object o) {
     if (this == o) {

@@ -21,7 +21,7 @@ public class ProductionCompany {
   }
 
   /* equals() and hashCode() used to make sure production companies with the same ID in Set are
-     considered unique. */
+     considered equal. */
   @Override
   public boolean equals(Object o) {
     if (this == o) {
