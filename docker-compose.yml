@@ -1,0 +1,15 @@
+version: '2.1'
+services:
+  postgres:
+    image: postgres
+    container_name: movies-db
+    hostname: movies-db
+    volumes:
+      - ./movies/sql/:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    expose:
+      - 1357
+    ports:
+      - 1357:5432

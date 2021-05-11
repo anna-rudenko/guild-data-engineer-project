@@ -1,0 +1,6 @@
+.idea
+*.iml
+the-movies-dataset.zip
+logs/
+working_directory/
+target/
